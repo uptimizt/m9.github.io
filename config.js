@@ -29,11 +29,11 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
-      email: '',
+      email: 'uptimizt@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'https://github.com/uptimizt',
       rss: '',
       vkontakte: '',
       linkedin: '#',

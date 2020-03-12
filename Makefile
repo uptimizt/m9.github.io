@@ -1,5 +1,2 @@
-push:
-	docker push uptimizt/ghpage
-
 build:
-	docker build -t uptimizt/ghpage .
+	docker-compose up --build

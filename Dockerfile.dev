@@ -10,6 +10,9 @@ FROM node:alpine
 #  --repository http://dl-3.alpinelinux.org/alpine/edge/main \
 #  && rm -fR /var/cache/apk/*
 
+RUN apk update && apk upgrade && \
+        apk add --no-cache bash git openssh
+
 RUN npm install -g gatsby-cli
 
 # WORKDIR /app

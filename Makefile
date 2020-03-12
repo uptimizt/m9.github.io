@@ -14,3 +14,6 @@ run-dev-server:
 
 app-create-hello-world:
 	docker-compose run gatsby new /app/test https://github.com/gatsbyjs/gatsby-starter-hello-world
+
+app-create-gatsby-starter-lumen:
+	docker-compose run gatsby new gatsby-starter-lumen https://github.com/alxshelepenok/gatsby-starter-lumen

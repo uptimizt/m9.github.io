@@ -3,22 +3,32 @@ build:
 	docker-compose up --build
 
 # remove docker
-rm:
+kill:
 	docker-compose kill
 	docker-compose rm -v --force
 	docker-compose down -v --remove-orphans
+
+# make public static site
+gb:
+	docker-compose run gatsby build
+
+# run dev server with watcher in docker
+ds:
+	docker-compose up -d develop
+
 
 # test run cli
 run-gatsby:
 	docker-compose run gatsby info
 
+# use yarn instead nmp
+yarn-install:
+	docker-compose run develop yarn install
+
+# not recommended
 run-npm:
 	docker-compose run develop npm install
 
-
-# start dev server
-run-dev-server:
-	docker-compose up -d develop
 
 # snippet for create app by hello world
 app-create-hello-world:

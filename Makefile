@@ -12,6 +12,10 @@ rm:
 run-gatsby:
 	docker-compose run gatsby info
 
+run-npm:
+	docker-compose run develop npm install
+
+
 # start dev server
 run-dev-server:
 	docker-compose up -d develop

@@ -16,14 +16,25 @@ gb:
 ds:
 	docker-compose up -d develop
 
+rebuild: yarn-install gb
 
 # test run cli
 run-gatsby:
 	docker-compose run gatsby info
 
+
+# yarn dock https://classic.yarnpkg.com/ru/docs/migrating-from-npm/
+
 # use yarn instead nmp
 yarn-install:
 	docker-compose run develop yarn install
+
+yarn-install-force:
+	docker-compose run develop yarn install --force
+
+# upgrade yarn
+yarn-upgrade:
+	docker-compose run develop yarn upgrade
 
 # not recommended
 run-npm:

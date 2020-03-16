@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://uptimizt.github.io/',
   pathPrefix: '/',
   title: 'Anatoly Yumashev / GitHub Pages',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'Web-developer: PHP, JavaScript, Golang, Symfony, Laravel, WordPress, WooCommerce.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,

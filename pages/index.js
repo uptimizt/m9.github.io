@@ -27,13 +27,13 @@ export default function Home() {
 
             <div className={styles.social}>
               <a href="https://t.me/uptimizt" className={styles.icon}>
-                <Telegram size={96} />
+                <Telegram size={36} />
               </a>
               <a href="https://github.com/uptimizt" className={styles.icon}>
-                <Github size={96} />
+                <Github size={36} />
               </a>
               <a href="mailto::uptimizt@gmail.com" className={styles.icon}>
-                <EnvelopeFill size={96} />
+                <EnvelopeFill size={36} />
               </a>
 
             </div>
